@@ -1,5 +1,4 @@
-# TextFileLocker
-Text File Locker by java
+# AnyTypeFileLocker
+Any Type File Locker by java
 # Use Guid:
-cmd:java -jar FileLocker.jar [sourcename] [directname] [password]
-# Lock once to lock,twice to unlock
+cmd:java -jar FileLocker.jar [mode(lock/unlock)] [sourcename] [directname] [password]
