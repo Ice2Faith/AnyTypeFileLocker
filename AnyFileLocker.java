@@ -1,7 +1,5 @@
 package AnyFileLocker;
-/**
-* Copyright@Ice2Faith-2019/8
-*/
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
@@ -170,7 +168,7 @@ public class AnyFileLocker {
 				}
 			  if(lockfile.FileLock(rtype,args[1], args[2], args[3])==false)
 					System.out.println("发生了一些不该有的错误！！");
-			  System.out.println("操作完毕！！" +args[0]+" --> "+args[1]); 
+			  System.out.println("操作完毕！！" +args[1]+" - "+args[0]+" -> "+args[2]); 
 			  }
 		 
 		
